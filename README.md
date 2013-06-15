@@ -1,14 +1,14 @@
 nagios-status-rackspace
 =======================
 
-I created some nagios scripts to check https://status.rackspace.com. It seems they don't have an RSS feed or anything and i wanted a proactive way of getting notifications.
+I created some nagios scripts to check https://status.rackspace.com. It seems they don't have an RSS feed and I wanted a proactive way of getting notifications.
 
 It's basicly just curl and sed, but it does the trick. PRs and suggestions are more than welcome.
 
 Installation
 ------------
 
-Pre: Be sure `curl` in installed. On the box you want to run it from
+Pre: Be sure `curl` in installed on the box you want to run the checks from.
 
 In your `commands.cfg` put something like:
 ```
