@@ -10,7 +10,7 @@ Installation
 
 Pre: Be sure `curl` in installed. On the box you want to run it from
 
-In your `commands.cfg' put something like:
+In your `commands.cfg` put something like:
 ```
 define command {
    command_name check-rackspace-1st-gen
