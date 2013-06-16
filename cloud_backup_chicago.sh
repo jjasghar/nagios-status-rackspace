@@ -14,6 +14,6 @@ if [[ ${CLOUD_BACKUP} == ${NORMAL} ]];
 elif [[ "${CLOUD_BACKUP}" != ${NORMAL} ]];
  then
    echo ${CLOUD_BACKUP}
-   stateid=3
+   stateid=2
  fi
 exit $stateid

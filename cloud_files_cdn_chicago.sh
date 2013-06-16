@@ -14,6 +14,6 @@ if [[ ${CLOUD_FILES_CDN} == ${NORMAL} ]];
 elif [[ "${CLOUD_FILES_CDN}" != ${NORMAL} ]];
  then
    echo ${CLOUD_FILES_CDN}
-   stateid=3
+   stateid=2
  fi
 exit $stateid

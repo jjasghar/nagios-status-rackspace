@@ -14,6 +14,6 @@ if [[ ${DALLAS_SERVERS_1ST} == ${NORMAL} ]];
 elif [[ "${DALLAS_SERVERS_1ST}" != ${NORMAL} ]];
  then
    echo ${DALLAS_SERVERS_1ST}
-   stateid=3
+   stateid=2
  fi
 exit $stateid

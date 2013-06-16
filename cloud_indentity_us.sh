@@ -14,6 +14,6 @@ if [[ ${CLOUD_IDENTITY} == ${NORMAL} ]];
 elif [[ "${CLOUD_IDENTITY}" != ${NORMAL} ]];
  then
    echo ${CLOUD_IDENTITY}
-   stateid=3
+   stateid=2
  fi
 exit $stateid

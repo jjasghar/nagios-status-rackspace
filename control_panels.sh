@@ -14,6 +14,6 @@ if [[ ${CONTROL_PANELS} == ${NORMAL} ]];
 elif [[ "${CONTROL_PANELS}" != ${NORMAL} ]];
  then
    echo ${CONTROL_PANELS}
-   stateid=3
+   stateid=2
  fi
 exit $stateid

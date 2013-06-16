@@ -14,6 +14,6 @@ if [[ ${CLOUD_LOAD_BALANCERS} == ${NORMAL} ]];
 elif [[ "${CLOUD_LOAD_BALANCERS}" != ${NORMAL} ]];
  then
    echo ${CLOUD_LOAD_BALANCERS}
-   stateid=3
+   stateid=2
  fi
 exit $stateid

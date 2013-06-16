@@ -14,6 +14,6 @@ if [[ ${RACKCONNECT} == ${NORMAL} ]];
 elif [[ "${RACKCONNECT}" != ${NORMAL} ]];
  then
    echo ${RACKCONNECT}
-   stateid=3
+   stateid=2
  fi
 exit $stateid

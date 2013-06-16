@@ -14,6 +14,6 @@ if [[ ${SERVERS_NEXT} == ${NORMAL} ]];
 elif [[ "${SERVERS_NEXT}" != ${NORMAL} ]];
  then
    echo ${SERVERS_NEXT}
-   stateid=3
+   stateid=2
  fi
 exit $stateid

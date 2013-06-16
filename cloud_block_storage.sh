@@ -14,6 +14,6 @@ if [[ ${CLOUD_BLOCK_STORAGE} == ${NORMAL} ]];
 elif [[ "${CLOUD_BLOCK_STORAGE}" != ${NORMAL} ]];
  then
    echo ${CLOUD_BLOCK_STORAGE}
-   stateid=3
+   stateid=2
  fi
 exit $stateid
